@@ -25,6 +25,7 @@ body {
       font-weight: bold;
       font-size: 28px; }
       .tpbr .tpbr-main-content .ch-cpy span {
+        padding-left: 5px;
         color: #4B4B4B;
         background: #fff; }
         .tpbr .tpbr-main-content .ch-cpy span::after {

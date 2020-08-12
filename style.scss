@@ -29,8 +29,8 @@ body {
         .ch-cpy {
             font-weight: bold;
             font-size: 28px;
-
             span {
+                padding-left: 5px;
                 color: #4B4B4B;
                 background: #fff;
                 &::after {

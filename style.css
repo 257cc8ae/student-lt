@@ -1,7 +1,8 @@
 html,
 body {
   margin: 0;
-  color: #4B4B4B; }
+  color: #4B4B4B;
+  width: 100%; }
 
 .tpbr {
   width: 100%;
@@ -70,6 +71,8 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+  .social-cards a {
+    text-decoration: none; }
   .social-cards .social-card {
     background: #fff;
     font-size: 20px;
@@ -78,6 +81,12 @@ h2 {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     margin: 5px;
     transition: all 400ms 0s ease; }
+    .social-cards .social-card .app_name {
+      color: #4B4B4B;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      margin-top: 10px; }
     .social-cards .social-card:hover {
       background: #EDEDED; }
   .social-cards .twitter {
@@ -107,9 +116,29 @@ h2 {
     font-weight: bold;
     font-size: 18px;
     padding-bottom: 20px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
   .us-ct .sm-pa-b {
     padding-bottom: 10px; }
+
+.target_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .target_cards .target_card {
+    width: 300px;
+    padding: 26px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    border-radius: 10px;
+    margin: 5px; }
+    .target_cards .target_card img {
+      width: 100%; }
+    .target_cards .target_card .target_card_text {
+      color: #4B4B4B;
+      font-weight: bold; }
 
 .us-ct-orange {
   background: #E0684B;
